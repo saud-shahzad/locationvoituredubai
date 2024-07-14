@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+    <meta name="google-site-verification" content="xi3LCXwzZC7EdFskSZTQQP_YI5UMeAm2URVqQkPGc_4" />
+        <title>Découvrez la Location de Voiture à Dubaï | Offres Exclusives</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
