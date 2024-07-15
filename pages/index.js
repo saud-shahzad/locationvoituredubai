@@ -42,7 +42,7 @@ Terminal 3
            <p className="description">
 Au Terminal 3, très fréquenté, des agences réputées comme Europcar et Goldcar vous accueillent 24h/24. Europcar met l'accent sur des solutions de mobilité flexibles et fiables, qu'il s'agisse d'une location pour un voyageur solo, une famille ou un professionnel. Goldcar, de son côté, propose des tarifs réduits en basse saison et une assurance tous risques pour un voyage en toute tranquillité.
 
-Que vous atterrissiez au Terminal 1, 2 ou 3, vous trouverez facilement une agence répondant à vos besoins spécifiques de <a href="https://carrentaldxb.com/">Location Voiture Dubaï Aéroport</a>. N'hésitez pas à comparer les offres pour dénicher le meilleur rapport qualité-prix.
+Que vous atterrissiez au Terminal 1, 2 ou 3, vous trouverez facilement une agence répondant à vos besoins spécifiques de <a href="https://carrentaldxb.com/fr/dubai/">Location Voiture Dubaï Aéroport</a>. N'hésitez pas à comparer les offres pour dénicher le meilleur rapport qualité-prix.
     </p>
            <p className="description">
 Comparaison des voitures disponibles
