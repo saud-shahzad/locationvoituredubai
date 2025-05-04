@@ -23,7 +23,7 @@ export default function Home() {
       alt="Land Cruiser Rental Dubai"
       className="car-image"
     />
-    <span className="category-badge">SUV</span>
+    <span className="category-badge">7 Seater SUV</span>
     <h3 className="car-title">Toyota Land Cruiser LC 300 2024</h3>
     <p className="car-price">
       <span className="discounted-price">500 AED</span> <del className="original-price">650 AED</del> / Day
@@ -44,7 +44,7 @@ export default function Home() {
       alt="Mustang Rental Dubai"
       className="car-image"
     />
-    <span className="category-badge">Convertible</span>
+    <span className="category-badge">Sports Car</span>
     <h3 className="car-title">Ford Mustang GT V8</h3>
     <p className="car-price">
       <span className="discounted-price">400 AED</span> <del className="original-price">580 AED</del> / Day
@@ -65,7 +65,7 @@ export default function Home() {
       alt="Mercedes G63 AMG 2025 Rental Dubai"
       className="car-image"
     />
-    <span className="category-badge">Luxury</span>
+    <span className="category-badge">Luxury SUV</span>
     <h3 className="car-title">Mercedes G63 AMG 2025</h3>
     <p className="car-price">
       <span className="discounted-price">1600 AED</span> <del className="original-price">1800 AED</del> / Day
