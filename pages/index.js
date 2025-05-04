@@ -19,7 +19,7 @@ export default function Home() {
   {/* Land Cruiser Card */}
   <div className="car-card">
     <img
-      src="/land-cruiser-rental-dubai.png"
+      src="/public/land-cruiser-rental-dubai.png"
       alt="Land Cruiser Rental Dubai"
       className="car-image"
     />
