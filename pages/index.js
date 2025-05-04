@@ -13,6 +13,51 @@ export default function Home() {
 
       <main>
         <Header title="Location voiture Dubai : Meilleures offres et astuces" />
+
+    <div className="car-card-container">
+
+  {/* Land Cruiser Card */}
+  <div className="car-card">
+    <img
+      src="/land-cruiser-rental-dubai.png"
+      alt="Land Cruiser Rental Dubai"
+      className="car-image"
+    />
+    <h3 className="car-title">Toyota Land Cruiser LC 300 2024</h3>
+    <p className="car-price">
+      <span className="discounted-price">500 AED</span> <del className="original-price">650 AED</del> / Day
+    </p>
+    <a
+      href="https://api.whatsapp.com/send?phone=971522887844&text=Hi, I want to rent the Toyota Land Cruiser LC 300 2024 at 500 AED/day from carrentaldubai.web.app. Is it available?"
+      className="whatsapp-btn"
+      target="_blank"
+    >
+      <i className="fa fa-whatsapp"></i> Book via WhatsApp
+    </a>
+  </div>
+
+  {/* Mustang Card */}
+  <div className="car-card">
+    <img
+      src="/mustang-rent-a-car-dubai.png"
+      alt="Mustang Rental Dubai"
+      className="car-image"
+    />
+    <h3 className="car-title">Ford Mustang GT V8</h3>
+    <p className="car-price">
+      <span className="discounted-price">400 AED</span> <del className="original-price">580 AED</del> / Day
+    </p>
+    <a
+      href="https://api.whatsapp.com/send?phone=971522887844&text=Hi, I want to rent the Ford Mustang GT V8 at 400 AED/day from carrentaldubai.web.app. Is it available?"
+      className="whatsapp-btn"
+      target="_blank"
+    >
+      <i className="fa fa-whatsapp"></i> Book via WhatsApp
+    </a>
+  </div>
+
+</div>
+
         <p className="description">
 À la recherche de la liberté de parcourir Dubaï à votre rythme, sans contraintes ni horaires fixes ? La location de voiture à Dubaï se présente comme une solution idéale, offrant flexibilité et confort pour découvrir la ville des superlatifs selon vos envies. Que vous souhaitiez parcourir les vastes étendues du désert, visiter les somptueux sites touristiques ou simplement vous déplacer avec aisance entre vos rendez-vous d’affaires, louer une voiture à Dubaï enrichit votre expérience de voyage tout en répondant à vos besoins spécifiques. Avec un large éventail d’options, de la location de voiture de luxe à Dubaï aux solutions plus économiques, la possibilité de personnaliser votre expérience de mobilité n'a jamais été aussi accessible.
 
