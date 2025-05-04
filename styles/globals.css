@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
   background-color: #f8fafc;
   padding: 0;
@@ -23,75 +24,80 @@ main {
   padding: 20px;
 }
 
+/* Car Card Grid */
 .car-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
 }
 
+/* Individual Car Card */
 .car-card {
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  max-width: 340px;
-  width: 100%;
-  text-align: center;
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .car-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
+/* Car Image */
 .car-image {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 200px;
   object-fit: cover;
 }
 
+/* Car Title */
 .car-title {
   font-size: 20px;
   font-weight: 700;
-  color: #111827;
-  margin: 15px 0 10px;
+  color: #1f2937;
+  margin: 15px 0 5px;
 }
 
+/* Pricing Block */
 .car-price {
   font-size: 16px;
-  margin: 0 0 15px;
-  color: #4b5563;
+  margin-bottom: 10px;
+  color: #374151;
 }
 
 .discounted-price {
-  font-weight: 700;
+  color: #10b981;
+  font-weight: bold;
   font-size: 18px;
-  color: #10b981; /* green */
 }
 
 .original-price {
-  margin-left: 10px;
   color: #9ca3af;
+  text-decoration: line-through;
   font-size: 15px;
+  margin-left: 8px;
 }
 
+/* WhatsApp Button */
 .whatsapp-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: #25D366;
-  color: white;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 30px;
-  padding: 10px 20px;
-  margin-bottom: 20px;
-  margin-top: 5px;
-  transition: background 0.3s ease;
+  border-radius: 25px;
+  padding: 10px 18px;
   font-size: 15px;
+  margin: 10px auto 20px;
+  transition: background 0.3s ease;
+  max-width: 90%;
 }
 
 .whatsapp-btn:hover {
@@ -100,5 +106,34 @@ main {
 
 .whatsapp-btn i {
   margin-right: 8px;
-  font-size: 18px;
+  font-size: 17px;
+}
+
+/* Category Badge */
+.category-badge {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 9999px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 480px) {
+  .car-title {
+    font-size: 18px;
+  }
+
+  .car-price {
+    font-size: 15px;
+  }
+
+  .whatsapp-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
 }
